@@ -79,7 +79,7 @@ translated <- TC_BE_other %>%
   ) %>% 
   dplyr::filter(!is.na(language)) 
 p<-   sapply(translate_df(translated$other_task), target ="en", source="",
-             uth_key = "AIzaSyAGeHfOasN5hzu5Zeh-9ptuu4m7TA30s24")
+
 
 
 
