@@ -83,11 +83,3 @@ p<-   sapply(translate_df(translated$other_task), target ="en", source="",
 
 
 
-#translate(dataset = translated,
-#          column.name = "other_task",
-#          source.lang = "detect",
-#          target.lang = "EN",
-#          add.source.lang = TRUE,
-#          auth_key = "AIzaSyAGeHfOasN5hzu5Zeh-9ptuu4m7TA30s24")
-
-
