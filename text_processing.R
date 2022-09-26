@@ -83,7 +83,7 @@ sentences_new <- sentences %>%
   dplyr::filter(str_detect(. , ""))
 
 ### authenticate & translate
-gl_auth("~/Documents/task_completion/keen-shape-354712-2b896bfa9c7c.json")
+
 translation_sentences <- gl_translate(
   sentences_new$.,
   target = "en",
