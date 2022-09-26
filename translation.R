@@ -17,7 +17,7 @@ detected_language <- sentences_new %>%
   data.frame(check.names = FALSE)
 
 
-gl_auth("~/Documents/task_completion/keen-shape-354712-2b896bfa9c7c.json")
+
 
 ## from fr to eng
 for (i in 1:ncol(sentences_new)){
