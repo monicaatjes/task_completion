@@ -46,7 +46,7 @@ detected_language <- as.data.frame(detect_language(TC_BE_other$other_task), as.c
   tally() 
 
 ### authenticate & translate
-gl_auth("~/Documents/task_completion/keen-shape-354712-2b896bfa9c7c.json")
+
 translation <- gl_translate(
     TC_BE_other$other_task,
     target = "en",
